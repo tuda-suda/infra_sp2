@@ -1,4 +1,5 @@
 .git/*
+.env
 env/
 venv/
 .venv
@@ -18,5 +19,6 @@ __pycache__/
 
 static/
 posts/static/
+sent_mails/
 
 db.sqlite3
