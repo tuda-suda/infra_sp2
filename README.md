@@ -29,10 +29,6 @@ For installation guide, refer to [official documentation](https://docs.docker.co
 
 `docker-compose up`
 
-### Apply DB migrations
-
-`docker-compose run web python manage.py migrate --no-input`
-
 ### Create Django superuser
 
 `docker compose run web python manage.py createsuperuser`
